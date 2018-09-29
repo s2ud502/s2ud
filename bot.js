@@ -2706,4 +2706,5 @@ msg.channel.send(`**Bot InviteURL : ** https://discordapp.com/oauth2/authorize?c
 
 
 
-client.login('احم');
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
